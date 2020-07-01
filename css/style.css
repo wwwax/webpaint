@@ -63,7 +63,7 @@ img {
 	position: absolute;
 	top: 0;
 	left: 0;
-	z-index: 1001;
+	z-index: 1000;
 	background-color: rgb(38,38,38);
 }
 
@@ -81,14 +81,14 @@ img {
 	font-size: 22px;
 	color: #fff;	
 	text-decoration: none;
-	z-index: 1002;
+	z-index: 1001;
 }
 
 .menu-burger {
 	width: 30px;
 	height: 20px;
 	position: relative;
-	z-index: 1002;
+	z-index: 1001;
 }
 
 .menu-burger span {
@@ -140,22 +140,19 @@ img {
 		z-index: 1000;
 		width: 100%;
 		height: 100%;
-		padding: 120px 0 0 0;
+		padding: 80px 0 0 0;
 		display: flex;
 		flex-direction: column;
+		justify-content: space-around;
 		align-items: center;
 		background-color: #2a2a2a;
+		background-color: tomato;
 		list-style: none;
 		transition: all 0.3s ease;
-		overflow: auto;
 	}
 
 	.menu.active {
 		top: 0;
-	}
-
-	.menu_item {
-		margin: 20px 0;
 	}
 }
 
@@ -166,7 +163,7 @@ img {
 		justify-content: space-between;
 		align-items: center;
 		list-style: none;
-		z-index: 1002;
+		z-index: 1001;
 	}
 }
 
