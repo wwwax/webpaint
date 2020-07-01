@@ -146,7 +146,6 @@ img {
 		justify-content: space-around;
 		align-items: center;
 		background-color: #2a2a2a;
-		background-color: tomato;
 		list-style: none;
 		transition: all 0.3s ease;
 	}
@@ -263,6 +262,7 @@ img {
 .features {
 	padding: 30px 0;
 	font-family: 'Lato', sans-serif;
+	background-color: #f8f8f8;
 }
 
 @media (min-width: 576px) {
@@ -340,4 +340,117 @@ img {
 	font-weight: 400;
 	color: #616161;
 	text-align: center;
+}
+
+/* works */
+
+.works {
+	padding: 30px 0;
+	font-family: 'Lato', sans-serif;
+	color: #616161;
+	text-align: center;
+}
+
+.works_title {
+	margin-bottom: 20px;
+	font-size: 26px;
+	font-weight: 900;
+}
+
+.works_text {
+	margin-bottom: 30px;
+	font-size: 18px;
+	font-weight: 300;
+}
+
+.works_buttons {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 20px;
+}
+
+.works_button {
+	margin-bottom: 10px;
+	padding: 10px;
+	font-size: 10px;
+	font-weight: 900;
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+	background-color: #ff6760;
+	border-radius: 5px;
+}
+
+.works_button:last-child {
+	margin-bottom: 0;
+}
+
+@media (min-width: 576px) {
+	.works_buttons {
+		flex-direction: row;
+		justify-content: center;
+	}
+
+	.works_button {
+		padding: 10px 20px;
+		margin: 0 5px 0 0;
+	}
+
+	.works_button:last-child {
+		margin: 0;
+	}
+}
+
+/* works_gallery */
+
+.works_gallery {
+	width: 270px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+}
+
+.works_gallery-item {
+	margin-bottom: 10px;
+}
+
+.works_gallery-item:last-child {
+	margin-bottom: 0;
+}
+
+@media (min-width: 576px) {
+	.works_gallery {
+		width: 550px;
+		flex-direction: row;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+
+	.works_gallery-item {
+		width: 270px;
+	}
+
+	.works_gallery-item:nth-last-child(-n + 2) {
+		margin-bottom: 0;
+	}
+}
+
+@media (min-width: 992px) {
+	.works_gallery {
+		width: 830px;
+	}
+
+	.works_gallery-item:nth-last-child(-n + 3) {
+		margin-bottom: 0;
+	}
+}
+
+@media (min-width: 1200px) {
+	.works_gallery {
+		width: 1110px;
+	}
+
+	.works_gallery-item:nth-last-child(-n + 4) {
+		margin-bottom: 0;
+	}
 }
