@@ -16,6 +16,8 @@ img {
 	height: auto;
 }
 
+/* container */
+
 .container {
 	padding: 0 10px;
 }
@@ -79,7 +81,7 @@ img {
 	align-items: center;
 	font-family: 'Kaushan Script', cursive;
 	font-size: 22px;
-	color: #fff;	
+	color: #fff;
 	text-decoration: none;
 	z-index: 1001;
 	animation: logo-appear 1s linear;
@@ -499,7 +501,7 @@ img {
 
 @media (min-width: 992px) {
 	.works_button {
-		transition: all 0.3s ease;	
+		transition: all 0.3s ease;
 	}
 
 	.works_button:hover {
